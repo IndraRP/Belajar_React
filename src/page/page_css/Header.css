@@ -1,0 +1,27 @@
+nav {
+    
+    background-color: #a38666;
+    overflow:hidden;
+    text-align: left;
+    position: relative;
+    border-bottom: 6px solid #cfcfcf;
+    
+  }
+
+  nav a {
+    display: inline-block;
+    color: #000000;
+    text-align: left;
+    padding: 20px 19px;
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: bold;
+  }
+  
+  nav a:hover:focus {
+    background-color: #737467;
+    color: #ffffff;
+    transition: .2s;
+    transform: scale(1.1) translateY(1px);
+    border-radius: 4px
+   }
